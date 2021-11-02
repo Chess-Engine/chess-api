@@ -5,8 +5,15 @@
     <RootNamespace>chess_api</RootNamespace>
   </PropertyGroup>
 
+    <PropertyGroup>
+    <Nullable>enable</Nullable>
+    </PropertyGroup>
+
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.11" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+ 
+    
   </ItemGroup>
   
     <ItemGroup>
